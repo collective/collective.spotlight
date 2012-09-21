@@ -17,5 +17,5 @@ lib/
 local.cfg
 parts/
 var/
-spotlight.komodoproject
+*.komodoproject
 ~      

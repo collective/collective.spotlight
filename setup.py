@@ -34,6 +34,7 @@ setup(name='collective.spotlight',
       install_requires=[
           'setuptools',
           'Plone>=4.2',
+          'plone.app.dexterity>=1.2.1',
           # -*- Extra requirements: -*-
       ],
       extras_require={
