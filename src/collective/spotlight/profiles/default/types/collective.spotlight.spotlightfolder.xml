@@ -5,11 +5,14 @@
  <!-- Basic metadata -->
  <property name="title" i18n:translate="">Spotlight Folder</property>
  <property name="description" i18n:translate="">A folder containing spotlight</property>
- <property name="content_icon">folder.gif</property>
+  <property name="icon_expr">string:${portal_url}/document_icon.png</property>
+  <property name="factory">collective.spotlight.spotlightfolder</property>
  <property name="allow_discussion">False</property>
  <property name="global_allow">True</property>
  <property name="filter_content_types">True</property>
- <property name="allowed_content_types" />
+ <property name="allowed_content_types">
+     <element value="collective.spotlight.spotlight" />
+ </property>
 
  <!-- schema interface -->
  <property name="schema">collective.spotlight.content.spotlightfolder.ISpotlightFolder</property>
